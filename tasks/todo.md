@@ -27,3 +27,18 @@ Télépilote de drone pro. Site statique HETECH. Ambiance sombre chaleureux (nui
 - Déploiement (GitHub Pages / portfolio) sur feu vert
 
 ## Section review (fin de chantier)
+
+## Refonte design « carte de vol » (2026-09-28)
+- [x] git init + commit de la v1 HETECH (sombre + orange)
+- [x] tools/serve.ps1 (Python et Node absents de la machine)
+- [x] css/style.css réécrit : tokens papier/encre/magenta/eau, Archivo variable, hachures, reduced-motion
+- [x] index.html : hero carte + route de vol, liste prestations, pilote, vidéos, cercles de portée, contact
+- [x] js/main.js : suppression du reveal au scroll, menu mobile (Échap), validation native du formulaire
+- [x] 8 pages services/ regénérées (fiche de mission : pour qui / livrables / délai)
+- [x] Audits : guidelines web (Vercel), WCAG (cibles ≥ 24 px, focus, landmarks, titres), SEO (titres uniques, JSON-LD)
+- [x] Vérif : HTTP 200 sur 11 URL, 0 lien interne cassé, 0 débordement horizontal à 375 px, menu mobile OK
+
+## À confirmer plus tard (Hugo/Thomas)
+- Délais et livrables des fiches de mission (inventés comme base de discussion, marqués « À CONFIRMER »)
+- Vraie adresse e-mail, URL YouTube exacte, zone d'intervention, conformité/assurance
+- Photos/vidéos pour remplacer les zones hachurées

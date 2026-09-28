@@ -3,118 +3,197 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TOMDRONETECHNIK — Pilote de drone professionnel · Photo & vidéo aérienne</title>
-<meta name="description" content="TOMDRONETECHNIK — Thomas LOYER, télépilote de drone professionnel. Prises de vue aériennes en 4K, événementiel sportif, immobilier, BTP, suivi de chantier, photos 360° et montage. Devis gratuit.">
-<meta name="theme-color" content="#0b0b0f">
-<meta property="og:title" content="TOMDRONETECHNIK — Pilote de drone professionnel">
+<title>TOMDRONETECHNIK — Télépilote de drone professionnel, photo et vidéo aérienne 4K</title>
+<meta name="description" content="Thomas LOYER, télépilote de drone professionnel&nbsp;: prises de vue aériennes 4K pour l'événementiel sportif, l'immobilier, le BTP, le suivi de chantier, les photos 360° et le montage. Devis gratuit.">
+<meta name="theme-color" content="#F2F3EE">
+<meta property="og:title" content="TOMDRONETECHNIK — Télépilote de drone professionnel">
 <meta property="og:description" content="Photo et vidéo aérienne par drone en 4K. Événementiel, immobilier, BTP, 360° et montage. Devis gratuit.">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "TOMDRONETECHNIK",
+  "description": "Télépilote de drone professionnel : prises de vue aériennes 4K, montage vidéo, photos 360°.",
+  "telephone": "+33603706432",
+  "founder": { "@type": "Person", "name": "Thomas Loyer" },
+  "areaServed": "FR",
+  "sameAs": ["https://www.youtube.com/@tomdronetechnik"]
+}
+</script>
+<script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
-<div class="bg-decor"></div>
 
-<!-- ======================= HEADER ======================= -->
+<a class="skip-link" href="#main">Aller au contenu</a>
+
 <header id="header">
-  <div class="wrap nav">
-    <a href="#top" class="brand" aria-label="TOMDRONETECHNIK — accueil">
-      <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-        <circle cx="11" cy="13" r="6" stroke="#ff7a18" stroke-width="2.4"/>
-        <circle cx="37" cy="13" r="6" stroke="#ff7a18" stroke-width="2.4"/>
-        <path d="M11 13h26M18 20l6 8 6-8" stroke="#ff9e3d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-        <rect x="20" y="26" width="8" height="7" rx="1.6" stroke="#f4b23e" stroke-width="2.4"/>
-      </svg>
-      <span>TOMDRONE<b>TECHNIK</b></span>
+  <div class="wrap topbar">
+    <a class="brand" href="#" aria-label="TOMDRONETECHNIK, accueil">
+      <span class="mark" aria-hidden="true"></span>
+      <span>TOMDRONETECHNIK</span>
     </a>
     <nav class="nav-links" aria-label="Navigation principale">
       <a href="#prestations">Prestations</a>
-      <a href="#apropos">À propos</a>
+      <a href="#apropos">Le pilote</a>
       <a href="#realisations">Réalisations</a>
-      <a href="#contact">Contact</a>
+      <a href="#zone">Zone</a>
+      <a class="phone" href="tel:+33603706432">06 03 70 64 32</a>
+      <a href="#contact" class="btn btn-primary">Demander un devis</a>
     </nav>
-    <a href="#contact" class="btn btn-primary btn-sm">Devis gratuit</a>
-    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobileMenu">
       <span></span><span></span><span></span>
     </button>
   </div>
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Navigation mobile">
+    <div class="wrap">
+      <a href="#prestations">Prestations</a>
+      <a href="#apropos">Le pilote</a>
+      <a href="#realisations">Réalisations</a>
+      <a href="#zone">Zone d'intervention</a>
+      <a href="tel:+33603706432">06 03 70 64 32</a>
+      <a href="#contact" class="btn btn-primary">Demander un devis</a>
+    </div>
+  </nav>
 </header>
-<nav class="mobile-menu" id="mobileMenu" aria-label="Navigation mobile">
-  <a href="#prestations">Prestations</a>
-  <a href="#apropos">À propos</a>
-  <a href="#realisations">Réalisations</a>
-  <a href="#contact">Contact</a>
-</nav>
 
-<main id="top">
+<main id="main">
 
   <!-- ======================= HERO ======================= -->
-  <section class="hero">
-    <div class="hero-media">
-      <div class="ph" aria-hidden="true">
-        <span class="badge-modif">À MODIFIER</span>
-        <span class="ph-hint">
-          <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><path d="M3 16l5-5 4 4 4-6 5 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="8" r="2" stroke="currentColor" stroke-width="1.6"/></svg>
-          Vidéo ou photo aérienne plein écran
-        </span>
-      </div>
+  <section class="hero" aria-labelledby="hero-title">
+    <!-- À MODIFIER : quand une vidéo/photo aérienne sera disponible, elle peut remplacer ou accompagner la carte. -->
+    <div class="chart" aria-hidden="true">
+      <svg viewBox="0 0 1440 760" preserveAspectRatio="xMidYMid slice">
+        <g class="grid">
+          <line x1="0" y1="190" x2="1440" y2="190"/>
+          <line x1="0" y1="380" x2="1440" y2="380"/>
+          <line x1="0" y1="570" x2="1440" y2="570"/>
+          <line x1="360" y1="0" x2="360" y2="760"/>
+          <line x1="720" y1="0" x2="720" y2="760"/>
+          <line x1="1080" y1="0" x2="1080" y2="760"/>
+        </g>
+        <!-- Courbes de niveau, massif principal (droite) -->
+        <path class="contour deep" d="M960 60 C1130 10 1360 90 1410 250 C1460 420 1330 600 1140 610 C950 620 800 500 820 340 C835 210 880 90 960 60 Z"/>
+        <path class="contour" d="M985 110 C1130 70 1320 140 1360 270 C1400 410 1290 560 1135 565 C980 570 860 470 880 340 C895 230 920 130 985 110 Z"/>
+        <path class="contour" d="M1010 160 C1130 130 1280 190 1310 290 C1340 400 1250 520 1130 520 C1010 520 920 440 940 340 C955 260 975 175 1010 160 Z"/>
+        <path class="contour deep" d="M1035 210 C1130 190 1240 240 1260 310 C1280 390 1210 475 1125 475 C1040 475 985 415 1000 345 C1012 285 1030 215 1035 210 Z"/>
+        <path class="contour" d="M1060 260 C1130 250 1195 285 1210 330 C1225 385 1180 430 1120 430 C1060 430 1040 390 1050 345 C1057 305 1055 265 1060 260 Z"/>
+        <path class="contour" d="M1085 305 C1130 300 1160 320 1165 345 C1170 375 1145 392 1118 392 C1090 392 1080 372 1085 350 C1088 330 1082 310 1085 305 Z"/>
+        <!-- Courbes de niveau, relief secondaire (bas gauche) -->
+        <path class="contour" d="M60 720 C120 560 330 500 470 570 C610 640 560 780 420 800 C280 820 20 830 60 720 Z"/>
+        <path class="contour" d="M130 715 C180 600 330 555 440 610 C550 665 500 760 400 770 C300 780 100 790 130 715 Z"/>
+        <path class="contour deep" d="M200 710 C240 640 330 610 410 650 C490 690 450 745 380 750 C310 755 180 760 200 710 Z"/>
+        <!-- Route de vol -->
+        <path class="route" pathLength="1" d="M120 700 L640 690 L900 430 L1330 120"/>
+        <circle class="wp" cx="120" cy="700" r="7"/>
+        <circle class="wp" cx="640" cy="690" r="7"/>
+        <circle class="wp" cx="900" cy="430" r="7"/>
+        <circle class="wp end" cx="1330" cy="120" r="8"/>
+        <text class="wp-label" x="1250" y="100" text-anchor="end">Point de vue</text>
+      </svg>
     </div>
-    <div class="wrap hero-inner">
-      <span class="chip reveal"><span class="dot"></span>Télépilote de drone · France</span>
-      <h1 class="reveal" data-d="1">Vos projets<br><span class="grad">filmés vus du ciel.</span></h1>
-      <p class="lead reveal" data-d="2">
-        TOMDRONETECHNIK réalise vos prises de vue aériennes par drone en 4K : événementiel sportif,
-        immobilier, BTP, photos 360° et montage. Des images spectaculaires, livrées prêtes à diffuser.
-      </p>
-      <div class="hero-cta reveal" data-d="3">
-        <a href="#contact" class="btn btn-primary">Demander un devis <span class="arrow">→</span></a>
-        <a href="#prestations" class="btn btn-ghost">Voir les prestations</a>
-      </div>
-      <div class="hero-tags reveal" data-d="3">
-        <span>Drone 4K</span>
-        <span>Montage inclus</span>
-        <span>Livraison rush</span>
-        <span>Sur-mesure</span>
+
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <h1 id="hero-title">Vos projets, filmés depuis le ciel.</h1>
+          <p class="lead">
+            Thomas LOYER, télépilote de drone professionnel, réalise vos prises de vue aériennes en 4K
+            et vous livre des images prêtes à diffuser&nbsp;: événements sportifs, biens immobiliers,
+            chantiers, photos 360° et montage.
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Demander un devis</a>
+            <a href="tel:+33603706432" class="tel">06 03 70 64 32</a>
+          </div>
+        </div>
+        <dl class="readouts" aria-label="Plan de vol">
+          <div><dt>Image</dt><dd>4K stabilisée</dd></div>
+          <div><dt>Hauteur de vol</dt><dd>jusqu'à 120&nbsp;m</dd></div>
+          <div><dt>Prestation</dt><dd>captation, montage, export</dd></div>
+          <div><dt>Devis</dt><dd>gratuit, sous 48&nbsp;h</dd></div>
+        </dl>
       </div>
     </div>
   </section>
 
-  <!-- ======================= À PROPOS ======================= -->
-  <section id="apropos">
-    <div class="wrap about-grid">
-      <div class="about-media ph reveal" aria-hidden="true">
-        <span class="badge-modif">À MODIFIER</span>
-        <span class="ph-hint">
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.6"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-          Portrait de Thomas LOYER
-        </span>
+  <!-- ======================= PRESTATIONS ======================= -->
+  <section id="prestations" aria-labelledby="prestations-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="prestations-title">Ce que je filme pour vous</h2>
+        <p class="lead">Huit prestations, une même exigence&nbsp;: des images nettes, stabilisées et livrées dans le format qu'il vous faut. Ouvrez une ligne pour le détail.</p>
       </div>
-      <div class="reveal" data-d="1">
-        <span class="kicker">Le pilote</span>
-        <h2 class="section-title">Thomas LOYER,<br>votre télépilote de drone</h2>
-        <p class="section-lead">
+      <ul class="services-list">
+        <li><a href="services/evenementiel-sportif.html">
+          <h3>Événementiel sportif</h3>
+          <p>Courses, compétitions, meetings&nbsp;: l'ampleur et le mouvement de votre événement, vus du ciel.</p>
+          <span class="wp" aria-hidden="true"></span>
+        </a></li>
+        <li><a href="services/immobilier.html">
+          <h3>Immobilier</h3>
+          <p>Le bien dans son environnement, ses extérieurs et son cadre, pour des annonces qui se remarquent.</p>
+          <span class="wp" aria-hidden="true"></span>
+        </a></li>
+        <li><a href="services/btp.html">
+          <h3>BTP</h3>
+          <p>Vues d'ensemble, inspections et communication de vos ouvrages et infrastructures.</p>
+          <span class="wp" aria-hidden="true"></span>
+        </a></li>
+        <li><a href="services/particuliers.html">
+          <h3>Particuliers</h3>
+          <p>Propriété, mariage, moment de vie&nbsp;: un souvenir filmé sous un angle que personne d'autre n'a.</p>
+          <span class="wp" aria-hidden="true"></span>
+        </a></li>
+        <li><a href="services/montage-4k.html">
+          <h3>Montage vidéo et audio 4K</h3>
+          <p>Dérushage, montage, étalonnage et son&nbsp;: une vidéo finale prête à publier.</p>
+          <span class="wp" aria-hidden="true"></span>
+        </a></li>
+        <li><a href="services/suivi-chantier.html">
+          <h3>Suivi de chantier</h3>
+          <p>Un point d'avancement régulier, toujours au même angle, pour documenter et valoriser vos travaux.</p>
+          <span class="wp" aria-hidden="true"></span>
+        </a></li>
+        <li><a href="services/photos-360.html">
+          <h3>Photos 360°</h3>
+          <p>Panoramas immersifs et visites virtuelles pour explorer un lieu dans toutes les directions.</p>
+          <span class="wp" aria-hidden="true"></span>
+        </a></li>
+        <li><a href="services/livraison-rush.html">
+          <h3>Livraison rush et montage</h3>
+          <p>Un délai serré&nbsp;? Captation et montage express pour recevoir vos images au plus vite.</p>
+          <span class="wp" aria-hidden="true"></span>
+        </a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ======================= LE PILOTE ======================= -->
+  <section id="apropos" aria-labelledby="apropos-title">
+    <div class="wrap pilot-grid">
+      <!-- À MODIFIER : portrait de Thomas LOYER (format 4:5) -->
+      <div class="slot portrait" role="img" aria-label="Portrait de Thomas LOYER, photo à venir"><span>Portrait à venir</span></div>
+      <div>
+        <h2 id="apropos-title">Thomas LOYER, votre télépilote</h2>
+        <p class="lead">
           Passionné d'image et de technologie, je mets mon drone au service de vos projets pour capter
-          des points de vue impossibles à obtenir autrement. Du cadrage à la livraison, je m'occupe de tout —
+          des points de vue impossibles à obtenir autrement. Du cadrage à la livraison, je m'occupe de tout&nbsp;:
           prise de vue, montage et export dans le format qu'il vous faut.
         </p>
-        <ul class="about-points">
-          <li>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <div><b>Matériel professionnel 4K</b><span>Images nettes et stabilisées, de jour comme au coucher du soleil.</span></div>
-          </li>
-          <li>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <div><b>De la captation au montage</b><span>Un seul interlocuteur, du tournage à la vidéo finale.</span></div>
-          </li>
-          <li>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <div><b>Réactivité &amp; livraison rush</b><span>Besoin urgent&nbsp;? Vos images livrées dans les meilleurs délais.</span></div>
-          </li>
+        <ul class="pilot-points">
+          <li><div><b>Matériel professionnel 4K</b><span>Images nettes et stabilisées, de jour comme au coucher du soleil.</span></div></li>
+          <li><div><b>De la captation au montage</b><span>Un seul interlocuteur, du tournage à la vidéo finale.</span></div></li>
+          <li><div><b>Réactivité et livraison rush</b><span>Besoin urgent&nbsp;? Vos images livrées dans les meilleurs délais.</span></div></li>
         </ul>
         <div class="compliance">
-          <h4>Conformité &amp; assurance</h4>
+          <h3>Conformité et assurance</h3>
+          <!-- À PRÉCISER : numéro d'exploitant UAS, assurance RC pro -->
           <p>Télépilote déclaré, vols réalisés dans le respect de la réglementation en vigueur et couverts
           par une assurance responsabilité civile professionnelle. <em>(Détails à préciser.)</em></p>
         </div>
@@ -122,229 +201,122 @@
     </div>
   </section>
 
-  <!-- ======================= PRESTATIONS ======================= -->
-  <section id="prestations">
-    <div class="wrap">
-      <div class="section-head center reveal">
-        <span class="kicker" style="justify-content:center">Prestations</span>
-        <h2 class="section-title">Ce que je peux filmer pour vous</h2>
-        <p class="section-lead">Huit spécialités, une même exigence de qualité. Cliquez pour découvrir chaque prestation en détail.</p>
-      </div>
-
-      <div class="services-grid">
-        <a class="service-card reveal" href="services/evenementiel-sportif.html">
-          <span class="service-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M7 4h10v3a5 5 0 01-10 0V4z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M17 5h2.5a2.5 2.5 0 01-2.5 2.5M7 5H4.5A2.5 2.5 0 007 7.5M9 15h6M8 20h8M12 12v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
-          <h3>Événementiel sportif</h3>
-          <p>Compétitions, courses, meetings : le mouvement et l'ampleur de vos événements vus du ciel.</p>
-          <span class="service-more">En savoir plus <span class="arrow">→</span></span>
-        </a>
-
-        <a class="service-card reveal" href="services/immobilier.html">
-          <span class="service-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 20V9l8-5 8 5v11" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 20v-6h6v6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-          <h3>Immobilier</h3>
-          <p>Biens, domaines et programmes mis en valeur par des vues aériennes qui font la différence.</p>
-          <span class="service-more">En savoir plus <span class="arrow">→</span></span>
-        </a>
-
-        <a class="service-card reveal" href="services/btp.html">
-          <span class="service-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 20h18M6 20V9l6-3 6 3v11" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M2 9l10-5 10 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-          <h3>BTP</h3>
-          <p>Vues d'ensemble, inspections et communication de vos ouvrages et infrastructures.</p>
-          <span class="service-more">En savoir plus <span class="arrow">→</span></span>
-        </a>
-
-        <a class="service-card reveal" href="services/particuliers.html">
-          <span class="service-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.3-7-9a4 4 0 017-2.6A4 4 0 0119 12c0 4.7-7 9-7 9z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
-          <h3>Particuliers</h3>
-          <p>Propriété, mariage, moment de vie : gardez un souvenir unique, filmé sous un angle inédit.</p>
-          <span class="service-more">En savoir plus <span class="arrow">→</span></span>
-        </a>
-
-        <a class="service-card reveal" href="services/montage-4k.html">
-          <span class="service-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M3 9h18M7 5v4M17 5v4M7 19v-4M17 19v-4" stroke="currentColor" stroke-width="1.7"/></svg></span>
-          <h3>Montage vidéo &amp; audio 4K</h3>
-          <p>Dérushage, montage, étalonnage et son : une vidéo finale prête à publier, en 4K.</p>
-          <span class="service-more">En savoir plus <span class="arrow">→</span></span>
-        </a>
-
-        <a class="service-card reveal" href="services/suivi-chantier.html">
-          <span class="service-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M9 8h6M9 12h6M9 16h4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>
-          <h3>Suivi de chantier</h3>
-          <p>Un point d'avancement régulier, vu du ciel, pour documenter et valoriser vos chantiers.</p>
-          <span class="service-more">En savoir plus <span class="arrow">→</span></span>
-        </a>
-
-        <a class="service-card reveal" href="services/photos-360.html">
-          <span class="service-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="12" rx="9" ry="4.2" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/></svg></span>
-          <h3>Photos 360°</h3>
-          <p>Panoramas immersifs et visites virtuelles pour explorer un lieu à 360 degrés.</p>
-          <span class="service-more">En savoir plus <span class="arrow">→</span></span>
-        </a>
-
-        <a class="service-card reveal" href="services/livraison-rush.html">
-          <span class="service-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
-          <h3>Livraison rush &amp; montage</h3>
-          <p>Un délai serré&nbsp;? Captation et montage express pour recevoir vos images très vite.</p>
-          <span class="service-more">En savoir plus <span class="arrow">→</span></span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ======================= POURQUOI MOI ======================= -->
-  <section id="atouts" style="padding-top:0">
-    <div class="wrap">
-      <div class="atouts reveal">
-        <div class="atout">
-          <div class="atout-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="14" height="12" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M17 10l4-2v8l-4-2" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></div>
-          <h3>Qualité 4K</h3>
-          <p>Un matériel récent et une image stabilisée, exploitable en diffusion pro.</p>
-        </div>
-        <div class="atout">
-          <div class="atout-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></div>
-          <h3>Livraison rush</h3>
-          <p>Des délais courts respectés, sans compromis sur le rendu final.</p>
-        </div>
-        <div class="atout">
-          <div class="atout-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 21l-4.9 2.6.9-5.5-4-3.9 5.5-.8L12 3z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
-          <h3>Sur-mesure</h3>
-          <p>Chaque projet est cadré selon vos besoins, votre lieu et votre budget.</p>
-        </div>
-        <div class="atout">
-          <div class="atout-ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-          <h3>Clé en main</h3>
-          <p>Prise de vue, montage, son et export : je gère l'ensemble de la chaîne.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ======================= RÉALISATIONS ======================= -->
-  <section id="realisations" class="realisations">
+  <section id="realisations" aria-labelledby="realisations-title">
     <div class="wrap">
-      <div class="section-head center reveal">
-        <span class="kicker" style="justify-content:center">Réalisations</span>
-        <h2 class="section-title">Mes dernières vidéos</h2>
-        <p class="section-lead">Un aperçu de mon travail. Retrouvez l'ensemble de mes réalisations sur ma chaîne YouTube.</p>
+      <div class="section-head">
+        <h2 id="realisations-title">Mes dernières vidéos</h2>
+        <p class="lead">Un aperçu de mon travail. L'ensemble de mes réalisations est sur ma chaîne YouTube.</p>
       </div>
-
-      <div class="videos-grid">
-        <div class="video-card ph reveal"><span class="badge-modif">À MODIFIER</span><span class="ph-hint"><span class="play"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>Vidéo aérienne 1</span></div>
-        <div class="video-card ph reveal" data-d="1"><span class="badge-modif">À MODIFIER</span><span class="ph-hint"><span class="play"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>Vidéo aérienne 2</span></div>
-        <div class="video-card ph reveal" data-d="2"><span class="badge-modif">À MODIFIER</span><span class="ph-hint"><span class="play"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>Vidéo aérienne 3</span></div>
+      <!-- À MODIFIER : remplacer chaque bloc par une miniature liée à la vidéo YouTube -->
+      <div class="videos">
+        <figure>
+          <div class="slot video"><span>Vidéo à venir</span><span class="play" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
+          <figcaption>Vidéo aérienne 1</figcaption>
+        </figure>
+        <figure>
+          <div class="slot video"><span>Vidéo à venir</span><span class="play" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
+          <figcaption>Vidéo aérienne 2</figcaption>
+        </figure>
+        <figure>
+          <div class="slot video"><span>Vidéo à venir</span><span class="play" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
+          <figcaption>Vidéo aérienne 3</figcaption>
+        </figure>
       </div>
-
-      <div class="cta-row reveal">
-        <a href="https://www.youtube.com/@tomdronetechnik" target="_blank" rel="noopener" class="btn btn-primary">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 12s0-3.2-.4-4.7a2.5 2.5 0 00-1.8-1.8C19.3 5 12 5 12 5s-7.3 0-8.8.5A2.5 2.5 0 001.4 7.3C1 8.8 1 12 1 12s0 3.2.4 4.7a2.5 2.5 0 001.8 1.8C4.7 19 12 19 12 19s7.3 0 8.8-.5a2.5 2.5 0 001.8-1.8C23 15.2 23 12 23 12zM10 15V9l5 3-5 3z"/></svg>
-          Voir la chaîne YouTube <span class="arrow">→</span>
-        </a>
-      </div>
+      <!-- À CONFIRMER : URL exacte de la chaîne YouTube -->
+      <a href="https://www.youtube.com/@tomdronetechnik" target="_blank" rel="noopener" class="btn btn-ghost">Voir la chaîne YouTube</a>
     </div>
   </section>
 
-  <!-- ======================= ZONE D'INTERVENTION ======================= -->
-  <section id="zone" style="padding-top:0">
-    <div class="wrap">
-      <div class="zone-card reveal">
-        <div>
-          <span class="kicker">Zone d'intervention</span>
-          <h2 class="section-title">Je me déplace sur vos lieux de tournage</h2>
-          <p class="section-lead">Interventions dans votre secteur et alentours. Un projet plus loin&nbsp;?
-          Parlons-en, je m'adapte à vos besoins. <em>(Secteur géographique à préciser.)</em></p>
-          <a href="#contact" class="btn btn-ghost" style="margin-top:24px">Vérifier ma disponibilité <span class="arrow">→</span></a>
-        </div>
-        <div class="ph" aria-hidden="true">
-          <span class="badge-modif">À MODIFIER</span>
-          <span class="ph-hint"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-6-7-11a7 7 0 0114 0c0 5-7 11-7 11z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg>Carte / zone d'intervention</span>
-        </div>
+  <!-- ======================= ZONE ======================= -->
+  <section id="zone" aria-labelledby="zone-title">
+    <div class="wrap zone-grid">
+      <div>
+        <h2 id="zone-title">Je me déplace sur vos lieux de tournage</h2>
+        <!-- À PRÉCISER : ville de base et rayon d'intervention réel -->
+        <p>Basé en France, j'interviens dans un large rayon autour de ma base et plus loin selon le projet. Le déplacement est inclus dans le devis, sans surprise.</p>
+        <p>Avant chaque vol, je vérifie la zone (espaces aériens, autorisations, météo) pour que le tournage se déroule dans les règles et sans imprévu. <em>(Zone exacte à préciser.)</em></p>
       </div>
+      <svg class="rings" viewBox="0 0 400 400" role="img" aria-label="Cercles de portée autour de la base&nbsp;: 50, 100 et 150 kilomètres">
+        <circle class="ring" cx="200" cy="200" r="60"/>
+        <circle class="ring" cx="200" cy="200" r="120"/>
+        <circle class="ring outer" cx="200" cy="200" r="180"/>
+        <line x1="200" y1="20" x2="200" y2="380" stroke="#9CC1D6" stroke-width="1" stroke-dasharray="2 5"/>
+        <line x1="20" y1="200" x2="380" y2="200" stroke="#9CC1D6" stroke-width="1" stroke-dasharray="2 5"/>
+        <circle class="base" cx="200" cy="200" r="6"/>
+        <text x="208" y="146">50&nbsp;km</text>
+        <text x="208" y="86">100&nbsp;km</text>
+        <text x="208" y="28">150&nbsp;km</text>
+      </svg>
     </div>
   </section>
 
   <!-- ======================= CONTACT ======================= -->
-  <section id="contact">
-    <div class="wrap">
-      <div class="section-head center reveal">
-        <span class="kicker" style="justify-content:center">Contact</span>
-        <h2 class="section-title">Parlons de votre projet</h2>
-        <p class="section-lead">Un devis gratuit et sans engagement, adapté à votre besoin. Réponse rapide.</p>
+  <section id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
+      <div>
+        <h2 id="contact-title">Parlons de votre projet</h2>
+        <p class="lead">Décrivez-moi votre besoin, le lieu et la date envisagée. Je vous réponds avec un devis gratuit, sans engagement.</p>
+        <dl class="contact-list">
+          <div><dt>Téléphone</dt><dd><a href="tel:+33603706432">06 03 70 64 32</a></dd></div>
+          <!-- À MODIFIER : adresse e-mail réelle (placeholder invalide) -->
+          <div><dt>E-mail</dt><dd><a href="mailto:tomdronetechnik@facebook.fr">tomdronetechnik@facebook.fr</a></dd></div>
+          <div><dt>YouTube</dt><dd><a href="https://www.youtube.com/@tomdronetechnik" target="_blank" rel="noopener">@tomdronetechnik</a></dd></div>
+        </dl>
       </div>
-
-      <div class="contact-grid">
-        <div class="contact-card reveal">
-          <ul class="contact-list">
-            <li>
-              <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 5c0 9 6 15 15 15l1-4-5-2-2 2a13 13 0 01-5-5l2-2-2-5-4 1z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
-              <div><div class="lbl">Téléphone</div><a href="tel:+33603706432">06 03 70 64 32</a></div>
-            </li>
-            <li>
-              <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              <div><div class="lbl">E-mail</div><a href="mailto:tomdronetechnik@facebook.fr">tomdronetechnik@facebook.fr</a></div>
-            </li>
-            <li>
-              <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.2-.4-4.7a2.5 2.5 0 00-1.8-1.8C19.3 5 12 5 12 5s-7.3 0-8.8.5A2.5 2.5 0 001.4 7.3C1 8.8 1 12 1 12s0 3.2.4 4.7a2.5 2.5 0 001.8 1.8C4.7 19 12 19 12 19s7.3 0 8.8-.5a2.5 2.5 0 001.8-1.8C23 15.2 23 12 23 12zM10 15V9l5 3-5 3z"/></svg></span>
-              <div><div class="lbl">YouTube</div><a href="https://www.youtube.com/@tomdronetechnik" target="_blank" rel="noopener">@tomdronetechnik</a></div>
-            </li>
-          </ul>
-        </div>
-
-        <form class="contact-card reveal" data-d="1" id="contactForm" data-email="tomdronetechnik@facebook.fr">
-          <div class="form-row">
+      <form id="contactForm" data-email="tomdronetechnik@facebook.fr" novalidate>
+        <div class="form-row">
+          <div class="field">
             <label for="nom">Votre nom</label>
             <input type="text" id="nom" name="nom" autocomplete="name" required>
           </div>
-          <div class="form-row">
+          <div class="field">
             <label for="email">Votre e-mail</label>
-            <input type="email" id="email" name="email" autocomplete="email" required>
+            <input type="email" id="email" name="email" autocomplete="email" inputmode="email" spellcheck="false" required>
           </div>
-          <div class="form-row">
-            <label for="message">Votre projet</label>
-            <textarea id="message" name="message" placeholder="Type de prestation, lieu, date souhaitée…" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Envoyer ma demande <span class="arrow">→</span></button>
-          <p class="form-note">En envoyant ce formulaire, votre logiciel de messagerie s'ouvre avec votre demande pré-remplie.</p>
-        </form>
-      </div>
+        </div>
+        <div class="field">
+          <label for="message">Votre projet</label>
+          <textarea id="message" name="message" required placeholder="Type de tournage, lieu, date envisagée…"></textarea>
+        </div>
+        <p class="form-note">Le bouton ouvre votre messagerie avec la demande pré-remplie.</p>
+        <button type="submit" class="btn btn-primary">Envoyer par e-mail</button>
+      </form>
     </div>
   </section>
+
 </main>
 
-<!-- ======================= FOOTER ======================= -->
 <footer>
   <div class="wrap">
     <div class="foot-grid">
-      <div class="foot-brand">
-        <a href="#top" class="brand" aria-label="TOMDRONETECHNIK">
-          <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-            <circle cx="11" cy="13" r="6" stroke="#ff7a18" stroke-width="2.4"/>
-            <circle cx="37" cy="13" r="6" stroke="#ff7a18" stroke-width="2.4"/>
-            <path d="M11 13h26M18 20l6 8 6-8" stroke="#ff9e3d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-            <rect x="20" y="26" width="8" height="7" rx="1.6" stroke="#f4b23e" stroke-width="2.4"/>
-          </svg>
-          <span>TOMDRONE<b>TECHNIK</b></span>
+      <div>
+        <a class="brand" href="#" aria-label="TOMDRONETECHNIK, accueil">
+          <span class="mark" aria-hidden="true"></span>
+          <span>TOMDRONETECHNIK</span>
         </a>
-        <p>Thomas LOYER — télépilote de drone professionnel. Photo et vidéo aérienne en 4K, montage inclus.</p>
+        <p>Thomas LOYER, télépilote de drone professionnel. Photo et vidéo aérienne en 4K, montage inclus.</p>
       </div>
-      <div class="foot-cols">
-        <div class="foot-col">
-          <h4>Prestations</h4>
-          <a href="services/evenementiel-sportif.html">Événementiel sportif</a>
-          <a href="services/immobilier.html">Immobilier</a>
-          <a href="services/btp.html">BTP</a>
-          <a href="services/suivi-chantier.html">Suivi de chantier</a>
-          <a href="services/photos-360.html">Photos 360°</a>
-        </div>
-        <div class="foot-col">
-          <h4>Contact</h4>
-          <a href="tel:+33603706432">06 03 70 64 32</a>
-          <a href="mailto:tomdronetechnik@facebook.fr">tomdronetechnik@facebook.fr</a>
-          <a href="https://www.youtube.com/@tomdronetechnik" target="_blank" rel="noopener">YouTube</a>
-        </div>
+      <div class="foot-col">
+        <h3>Prestations</h3>
+        <a href="services/evenementiel-sportif.html">Événementiel sportif</a>
+        <a href="services/immobilier.html">Immobilier</a>
+        <a href="services/btp.html">BTP</a>
+        <a href="services/particuliers.html">Particuliers</a>
+        <a href="services/montage-4k.html">Montage 4K</a>
+        <a href="services/suivi-chantier.html">Suivi de chantier</a>
+        <a href="services/photos-360.html">Photos 360°</a>
+        <a href="services/livraison-rush.html">Livraison rush</a>
+      </div>
+      <div class="foot-col">
+        <h3>Contact</h3>
+        <a href="tel:+33603706432">06 03 70 64 32</a>
+        <a href="mailto:tomdronetechnik@facebook.fr">tomdronetechnik@facebook.fr</a>
+        <a href="https://www.youtube.com/@tomdronetechnik" target="_blank" rel="noopener">YouTube</a>
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© <span data-year>2026</span> TOMDRONETECHNIK — Thomas LOYER</span>
+      <span>© <span data-year>2026</span> TOMDRONETECHNIK, Thomas LOYER</span>
       <span>Site réalisé par HETECH</span>
     </div>
   </div>
