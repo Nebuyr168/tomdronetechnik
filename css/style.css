@@ -15,12 +15,14 @@
   --water:#2F6F94;
   --water-line:#9CC1D6;
   --relief:#DCDFD3;
+  --sky:#DEE9F0;
+  --sky-line:#B7CFDD;
   --hatch:#C5CABB;
   --white:#FFFFFF;
 
   --font:'Archivo',system-ui,sans-serif;
-  --maxw:1200px;
-  --gutter:24px;
+  --maxw:1120px;
+  --gutter:clamp(24px,6vw,96px);
   --radius:2px;
   --ease:cubic-bezier(.22,1,.36,1);
 }
@@ -112,7 +114,7 @@ header{
 
 /* ---------- Sections ---------- */
 main > section{padding:88px 0}
-main > section + section{border-top:1px solid var(--water-line)}
+#prestations{border-top:1px solid var(--water-line)}
 .section-head{
   display:grid;grid-template-columns:5fr 7fr;gap:32px 56px;align-items:end;margin-bottom:48px;
 }
@@ -120,7 +122,7 @@ main > section + section{border-top:1px solid var(--water-line)}
 
 /* ---------- Hero ---------- */
 .hero{position:relative;overflow:hidden;padding:72px 0 80px;min-height:min(86vh,760px);display:flex;align-items:center}
-.hero .wrap{position:relative;z-index:1;width:100%}
+.hero .wrap{position:relative;z-index:1}
 .hero-grid{display:grid;grid-template-columns:7fr 5fr;gap:48px;align-items:end}
 .hero h1{margin-bottom:26px;max-width:12ch}
 .hero .lead{margin-bottom:34px}
@@ -152,7 +154,7 @@ main > section + section{border-top:1px solid var(--water-line)}
 .readouts{
   border-top:1.5px solid var(--ink);
   width:100%;max-width:400px;justify-self:end;
-  background:color-mix(in srgb,var(--paper) 78%,transparent);
+  background:color-mix(in srgb,var(--sky) 88%,transparent);
   backdrop-filter:blur(2px);
 }
 .readouts div{display:grid;grid-template-columns:1fr 1.4fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--water-line)}
@@ -346,3 +348,21 @@ main [id]{scroll-margin-top:84px}
 a,button{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
 .hero-cta .tel:hover{border-color:var(--air);color:var(--air)}
 .readouts dd,.mission dt{font-variant-numeric:tabular-nums}
+
+/* ---------- Teintes de section ---------- */
+.tint-sky{background:var(--sky)}
+.tint-sky .slot{border-color:var(--sky-line);background-image:repeating-linear-gradient(-45deg,var(--sky-line) 0 1px,transparent 1px 9px)}
+.tint-sky .slot > span{background:var(--white);border-color:var(--sky-line)}
+.tint-sky .contact-list div,.tint-sky .mission div{border-color:var(--sky-line)}
+.tint-sky .compliance{border-color:var(--water)}
+
+.tint-ink{background:var(--ink);color:var(--paper)}
+.tint-ink h2,.tint-ink h3{color:var(--paper)}
+.tint-ink p,.tint-ink .lead{color:#C3CAD9}
+.tint-ink .rings circle.ring{stroke:rgba(255,255,255,.32)}
+.tint-ink .rings line{stroke:rgba(255,255,255,.32)}
+.tint-ink .rings text{fill:var(--water-line)}
+.tint-ink .btn-ghost{border-color:var(--paper);color:var(--paper)}
+.tint-ink .btn-ghost:hover{background:var(--paper);color:var(--ink)}
+.tint-ink .cta-band{border-color:rgba(255,255,255,.28)}
+.tint-ink :focus-visible{outline-color:var(--white)}
