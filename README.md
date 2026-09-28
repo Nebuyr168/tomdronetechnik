@@ -45,6 +45,7 @@ Les emplacements sont repérés dans le HTML par des commentaires `<!-- À MODIF
 
 ## Déploiement
 Chemins relatifs, déployable tel quel (GitHub Pages, racine ou sous-dossier).
+En ligne : https://nebuyr168.github.io/tomdronetechnik/ (dépôt https://github.com/Nebuyr168/tomdronetechnik, branche `master`, Pages à la racine).
 Ajouter `<link rel="canonical">` une fois le domaine connu.
 
 *Coordonnées : Thomas LOYER · 06 03 70 64 32 · YouTube @tomdronetechnik*
